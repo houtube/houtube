@@ -110,12 +110,12 @@ h6 {
 }
 
 #converter .converter .card {
-    border: 1px solid #921125
+    border: 1px solid #5bc0de
 }
 
 .card-primary {
-    background-color: #921125;
-    border-color: #921125;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
 }
 
 .footer>.container {
@@ -574,7 +574,7 @@ p.desc {
 }
 
 .navbar-dark {
-    background-color: #921125 !important;
+    background-color: #5bc0de !important;
     border-color: #dedede !important;
     border: 1px solid ;
     min-height: 60px;
