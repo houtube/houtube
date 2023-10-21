@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /search/
+
+Sitemap: https://houtube.eu.org/sitemap_index.xml
