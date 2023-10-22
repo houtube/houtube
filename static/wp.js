@@ -2,7 +2,7 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 if (document.getElementById("extra_bottomads")) {
-    document.getElementById("extra_bottomads").innerHTML = '<a href="https://publishers.adsterra.com/referral/Kbgnkq3Xbg"><img alt="banner" src="https://landings-cdn.adsterratech.com/referralBanners/png/728%20x%2090%20px.png" /></a>';
+    document.getElementById("extra_bottomads").innerHTML = '<script async="async" data-cfasync="false" src="//pl18616640.highcpmrevenuegate.com/21ee3c3c56bdcf8148c61d25727396c4/invoke.js"></script><div id="container-21ee3c3c56bdcf8148c61d25727396c4"></div>';
 }
 // social bar
 (function () {
