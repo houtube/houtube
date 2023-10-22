@@ -1405,8 +1405,8 @@ object {
 	min-width: 372px;
 	padding: 10px 0;
 	font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .vl-site-title {
@@ -2390,6 +2390,10 @@ object {
 	text-decoration: underline;
 }
 
+.vl-site-info i {
+	color: red;
+}
+
 #vl-back-top {
 	background: #0078af;
 	color: #FFF;
@@ -2442,9 +2446,9 @@ object {
 .reportvid {
 	position: relative;
 	padding-bottom: 18px;
-	font-size:0;
+	font-size: 0;
 	visibility: hidden;
-	display:none;
+	display: none;
 	color: #ffffff;
 }
 
