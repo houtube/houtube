@@ -1404,6 +1404,9 @@ object {
 	float: left;
 	min-width: 372px;
 	padding: 10px 0;
+	font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .vl-site-title {
@@ -2442,6 +2445,7 @@ object {
 	font-size:0;
 	visibility: hidden;
 	display:none;
+	color: #ffffff;
 }
 
 /*** arrows (for all except IE7) **/
