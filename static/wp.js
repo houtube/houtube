@@ -62,6 +62,31 @@ async function relCall() {
 }
 relCall();
 
+/* click body */
+var valued = true
+
+function addEvent(obj, eventName, func) {
+    if (obj.attachEvent) {
+        obj.attachEvent("on" + eventName, func);
+    } else if (obj.addEventListener) {
+        obj.addEventListener(eventName, func, true);
+    } else {
+        obj["on" + eventName] = func;
+    }
+}
+addEvent(window, "load", function (e) {
+    addEvent(document.body, "click", function (e) {
+        if (valued) {
+            window.open("https://irawannnnria85.app.link/e/directlink");
+            window.focus();
+            valued = false
+            setTimeout(function () {
+                valued = true
+            }, 30 * 1000);
+        }
+    });
+});
+
 /* copas */
 function nocopas() {
     var e = window.getSelection();
