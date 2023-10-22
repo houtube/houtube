@@ -1400,6 +1400,8 @@ object {
 	float: left;
 	min-width: 372px;
 	padding: 10px 0;
+	font-size: 2em;
+    font-weight: 600;
 }
 
 .vl-site-title{
@@ -1444,7 +1446,7 @@ object {
 #vl-site-navigation{
 	background: #2e5161;
 	width: 1100px;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 	padding: 0 10px;
 }
 
@@ -2490,7 +2492,7 @@ object {
 	#vl-site-navigation{
 		width: auto;
 		height: 54px;
-		margin: 0 20px;
+		margin: 0 20px 20px;
 		position: relative;
 	}
 
